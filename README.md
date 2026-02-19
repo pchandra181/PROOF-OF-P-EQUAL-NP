@@ -21,7 +21,7 @@ over a period of 1.5 years.
 **NOTICE:** This repository is **NOT** open-source. All rights, including patent and intellectual property rights, belong exclusively to the author. 
 - Unauthorized testing, benchmarking, modification, or commercial use is **strictly prohibited**. 
 - This code is for visual inspection only. Any execution without written permission is a violation of legal terms.
-- For detailed terms, Read the full terms here: [View Strict License Terms](LICENSE)
+- For detailed terms, Read the full terms here: [View Strict License Terms](LICENSE.TXT)
 
 **Contact for Permissions:** `pcgango55@gmail.com`
 
