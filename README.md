@@ -21,14 +21,14 @@ over a period of 1.5 years.
 **NOTICE:** This repository is **NOT** open-source. All rights, including patent and intellectual property rights, belong exclusively to the author. 
 - Unauthorized testing, benchmarking, modification, or commercial use is **strictly prohibited**. 
 - This code is for visual inspection only. Any execution without written permission is a violation of legal terms.
-- For detailed terms, see the [LICENSE](./LICENSE) file.
+- For detailed terms, see the LICENCE.TXT file.
 
 **Contact for Permissions:** `pcgango55@gmail.com`
 
 ---
 
 ## Performance Guarantee
-Mathematically, the CROSS method and the provided `main.cpp` solve $n \times n$ SAT problems in **Order $O(n)$**. 
+Mathematically, the CROSS-IS-SAT method and the provided `main.cpp` solve $n \times n$ SAT problems in **Order $O(n)$**. 
 
 > **Technical Note:** While the methodology is mathematically absolute, any failure on an unsatisfiable CNF (which is statistically negligible) should be 
 considered a minor implementation bug in the code rather than a flaw in the logic.
