@@ -9,7 +9,7 @@ This repository contains the mathematical methodology and the C++ implementation
 
 
 ## Acknowledgments & Credits
-*   **Code Developer:** Parth. Gangroli
+*   **Code Developer:** Parth Gangroli
 *   **Scientific Review:** Special thanks to **Prof. Lance Fortnow** (IIT Chicago) for his invaluable time and effort in reviewing this methodology 
 over a period of 1.5 years.
 
