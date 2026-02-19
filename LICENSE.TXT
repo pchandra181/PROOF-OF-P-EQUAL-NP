@@ -1,0 +1,36 @@
+IMPORTANT LEGAL NOTICE: ALL RIGHTS RESERVED
+
+TITLE OF WORK: CROSS is SAT Method & main.cpp Implementation
+AUTHOR: [Prakash chandra]
+DATE: 19 february 2026
+
+1. OWNERSHIP AND INTELLECTUAL PROPERTY
+The methodology known as "CROSS is SAT" and the associated source code (main.cpp) 
+are the exclusive intellectual property of the Author. This includes all 
+copyrights, trade secrets, and pending patent rights associated with the 
+mathematical logic and algorithmic structure presented herein.
+
+2. RESTRICTIONS ON USE
+This repository does NOT grant any public or open-source license. The following 
+actions are STRICTLY PROHIBITED without explicit, prior written permission 
+from the Author:
+   a. EXECUTION & TESTING: Any form of benchmarking, performance testing, 
+      or functional evaluation of the code.
+   b. REDISTRIBUTION: Copying, mirroring, or sharing the code or methodology 
+      in any format (source or binary).
+   c. MODIFICATION: Editing, altering, or creating derivative works based 
+      on this methodology.
+   d. COMMERCIAL USE: Using this logic or code for any profit-making 
+      activity or within any commercial software.
+
+3. ACCESS POLICY
+This code is provided for VISUAL INSPECTION ONLY (Read-Only). Accessing 
+this repository does not constitute a transfer of any rights. 
+
+4. VIOLATIONS
+Any unauthorized use, including unauthorized benchmarking or public reporting 
+of test results, will be considered an infringement of intellectual property 
+rights and may be subject to legal action.
+
+For permission requests, please contact: [pcgango55@gmail.com]
+
