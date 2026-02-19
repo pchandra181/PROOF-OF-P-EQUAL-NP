@@ -1,7 +1,7 @@
 # PROOF-OF-P-EQUAL-NP
 A formal proof and O(n)  complexity solution for the N x N   SAT problem using the CROSS-IS-SAT method
 
-# CROSS is SAT Method: A Formal Proof of P=NP
+# CROSS-IS-SAT Method: A Formal Proof of P=NP
 
 ##  Project Announcement
 This repository contains the mathematical methodology and the C++ implementation (`main.cpp`) of the **CROSS-IS-SAT method**, which solves the $n \times n$ SAT problem with a computational complexity of **$O(n)$**.
