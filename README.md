@@ -43,9 +43,9 @@ considered a minor implementation bug in the code rather than a flaw in the logi
 5. **Output:** The final set of printed literals constitutes the **True Assignment** for the input CNF.
 
 
-   # Cross Is SAT Method: Square to Pyramid CNF Conversion
+   # Cross Is SAT Method: Square cnf to Pyramid CNF Conversion
 
-This repository demonstrates the **Cross Is SAT** method for solving SAT problems by transforming a standard Square CNF into a Pyramid CNF structure to achieve near-instant satisfiability.
+This repository demonstrates the **Cross-Is-SAT** method for solving SAT problems by transforming a standard Square CNF into a Pyramid CNF structure to achieve near-instant satisfiability.
 
 ## 1. Methodology Overview
 
@@ -99,7 +99,9 @@ Applying the "Cross Is SAT" selection:
 > **Note:** The efficiency of this method depends on the ability to map a general CNF into this Pyramid structure while maintaining the uniqueness of the trailing literals.
 
 ---
-© 2024 Cross Is SAT Research
+## Implementation Status
+`// C++ source code for the revised version will be available soon.`
+© 2026 Cross-Is-SAT METHOD Research
 
 
 7. ## 💻 Compilation and Execution (For Authorized Users Only)
