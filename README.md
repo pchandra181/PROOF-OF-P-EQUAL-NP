@@ -64,10 +64,10 @@ The core idea is to take an $n \times n$ CNF and restructure it into a "Pyramid"
 
 ### Step 1: Input Square CNF
 Consider a 4-variable, 4-clause system:
-- $C_1 = \{1, 2, 3, 4, 0\}$
-- $C_2 = \{-1, -2, -3, -4, 0\}$
-- $C_3 = \{1, -2, 3, 4, 0\}$
-- $C_4 = \{1, 2, -3, -4, 0\}$
+- $C_1 = \{1,   2 , 3,   4, 0\}$
+- $C_2 = \{-1, -2, -3,  -4, 0\}$
+- $C_3 = \{1, -2,  3,    4, 0\}$
+- $C_4 = \{1,  2, -3,   -4, 0\}$
 
 ### Step 2: Convert to Pyramid CNF
 Following the rule where $C_k$ has $k$ literals:
