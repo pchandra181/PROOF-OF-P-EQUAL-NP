@@ -43,7 +43,7 @@ considered a minor implementation bug in the code rather than a flaw in the logi
 5. **Output:** The final set of printed literals constitutes the **True Assignment** for the input CNF.
 
 
-   # Cross Is SAT Method: Square cnf to Pyramid CNF Conversion
+   # Cross-Is-SAT Method: Square cnf to Pyramid CNF Conversion
 
 This repository demonstrates the **Cross-Is-SAT** method for solving SAT problems by transforming a standard Square CNF into a Pyramid CNF structure to achieve near-instant satisfiability.
 
