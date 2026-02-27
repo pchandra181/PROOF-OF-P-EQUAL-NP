@@ -93,7 +93,7 @@ Applying the "Cross Is SAT" selection:
 | Process | Complexity |
 | :--- | :--- |
 | **SAT Solving (Pyramid)** | $O(1)$ per clause selection |
-| **Total Solving Time** | $O(n)$ for $n$ clauses |
+| **Total Solving Time** | $O(1)$ for $n$ clauses |
 | **Conversion Logic** | Subject to uniqueness constraint of last literals. |
 
 > **Note:** The efficiency of this method depends on the ability to map a general CNF into this Pyramid structure while maintaining the uniqueness of the trailing literals.
