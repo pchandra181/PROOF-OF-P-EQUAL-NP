@@ -49,11 +49,11 @@ This repository demonstrates the **Cross-Is-SAT** method for solving SAT problem
 
 ## 1. Methodology Overview
 
-The core idea is to take an $n \times n$ CNF and restructure it into a "Pyramid" shape where the number of literals in each clause increases incrementally, and the last literal of each clause is unique.
+The core idea is to take an $n \times n$ CNF and restructure it into a "Diagonal" shape where the number of literals in each clause increases incrementally, and the last literal of each clause is unique.
 
 ### Transformation Rules:
 1. **Square CNF:** Start with $n$ clauses, where each clause originally contains $n$ literals.
-2. **Pyramid Conversion:** 
+2. **Diagonal Conversion:** 
    - Clause $C_k$ must contain exactly $k$ literals.
    - The $k$-th literal (the last one) in each clause $C_k$ must be **unique**.
 3. **Selection Rule:** 
