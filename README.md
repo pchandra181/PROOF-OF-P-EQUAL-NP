@@ -83,7 +83,7 @@ Applying the "Cross Is SAT" selection:
 - From $C_3$: Select $3$
 - From $C_4$: Select $-4$
 
-**Assignment:** $\{1=T, -2=F, 3=T, -4=F\}$
+**Assignment:** $\{1=T, 2=F, 3=T, 4=F\}$
 
 **Result:** All clauses are satisfied immediately because each clause contains at least one literal that has been set to True.
 
