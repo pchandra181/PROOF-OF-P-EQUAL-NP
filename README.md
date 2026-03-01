@@ -43,13 +43,13 @@ considered a minor implementation bug in the code rather than a flaw in the logi
 5. **Output:** The final set of printed literals constitutes the **True Assignment** for the input CNF.
 
 
-   # Cross-Is-SAT Method: Square cnf to Diagonal CNF Conversion
+   # Cross-Is-SAT Method: Square cnf to pyramid CNF Conversion
 
 This repository demonstrates the **Cross-Is-SAT** method for solving SAT problems by transforming a standard Square CNF into a pyramid CNF structure to achieve near-instant satisfiability.
 
 ## 1. Methodology Overview
 
-The core idea is to take an $n \times n$ CNF and restructure it into a "Diagonal" shape where the number of literals in each clause increases incrementally, and the last literal of each clause is unique.
+The core idea is to take an $n \times n$ CNF and restructure it into a "pyramid" shape where the number of literals in each clause increases incrementally, and the last literal of each clause is unique.
 
 ### Transformation Rules:
 1. **Square CNF:** Start with $n$ clauses, where each clause originally contains $n$ literals.
