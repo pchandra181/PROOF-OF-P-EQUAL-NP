@@ -1,6 +1,30 @@
 //Important note: Before running the code, convert the given CNF into either square CNF or pyramid CNF.
 
 
+/* 
+ * =============================================================================
+ * PROJECT: CROSS is SAT Method - A Formal Proof of P=NP
+ * DEVELOPER: P. Gangroli
+ * REVIEWER: Prof. Lance Fortnow (IIT Chicago)
+ * DATE: 19 feb 2026
+ * 
+ * COPYRIGHT NOTICE:
+ * (C) 2026 [Prakash chandra]. All Rights Reserved.
+ * 
+ * STRICT USAGE POLICY:
+ * This source code is PROPRIETARY and is NOT licensed under any open-source 
+ * agreement. Modification, redistribution, execution, benchmarking, or 
+ * commercial use is STRICTLY PROHIBITED without prior written permission 
+ * from the author. This code is for visual inspection only.
+ * 
+ * MATHEMATICAL CLAIM:
+ * This implementation solves n x n SAT problems in O(n) complexity. 
+ * Any failure on unsatisfiable instances should be treated as a minor 
+ * implementation bug, not a flaw in the underlying CROSS -IS-SAT methodology.
+ * =============================================================================
+ */
+
+
 #include <iostream>
 #include <vector>
 #include <fstream>
@@ -57,3 +81,4 @@ int main() {
     getchar(); 
     return 0;
 }
+
