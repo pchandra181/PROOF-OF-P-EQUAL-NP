@@ -16,7 +16,7 @@
  * from the author. This code is for visual inspection only.
  * 
  * MATHEMATICAL CLAIM:
- * This implementation solves n x n SAT problems in O(n) complexity. 
+ * This implementation solves N^2  SAT problems in O(n) complexity. 
  * Any failure on unsatisfiable instances should be treated as a minor 
  * implementation bug, not a flaw in the underlying CROSS -IS-SAT methodology.
  * =============================================================================
@@ -81,3 +81,4 @@ int main() {
 
     return 0;
 }
+
