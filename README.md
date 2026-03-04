@@ -106,9 +106,9 @@ The efficiency of **Pyramid** or **Square CNF** is driven by the relationship be
 #### 1. The Model (Triangle CNF Example)
 In DIMACS form, consider $n=3$:
 
-$c_1 = {\1 0 \}$
-$c_2 = {-1,-2 \0 }$
-$c_3 = {-1 ,2 , -3 \ 0} $
+$c_1 = {1, \0 }$
+$c_2 = {-1,-2, \0 }$
+$c_3 = {-1 ,2 , -3, \ 0} $
 
 
 
