@@ -96,6 +96,67 @@ Applying the "Cross Is SAT" selection:
 | **Total Solving Time** | $O(1)$ for $n$ clauses |
 | **Conversion Logic** | Subject to uniqueness constraint of last literals. |
 
+```markdown
+# Pyramid / Square CNF Property
+
+A **Pyramid CNF** or **Square CNF** formula can often be satisfied by selecting **one valid literal from each clause** with a time complexity of **O(1)** and at most **O(n)** in the worst case. The main reason behind this efficiency is the structural relationship between the **number of clauses (n)** and the **number of valid selectable literals (m)**.
+
+## Example (Triangle CNF)
+
+Suppose a CNF formula in DIMACS-like form:
+
+c1 = 1 0  
+c2 = -1 -2 0  
+c3 = -1 2 -3 0  
+
+Here:
+
+- Number of clauses: **n = 3**
+- Number of selected valid literals: **m = 3**
+
+In the satisfiable case, we select **one valid literal from each clause**, therefore:
+
+m = n
+
+## Unsatisfiable Condition
+
+If the **nth clause becomes unsatisfied**, then the literals chosen from the clauses correspond to the **negations of each other**, creating a contradiction.
+
+This situation can be written as:
+
+m - n = 0
+
+Example:
+
+m - n = 3 - 3 = 0
+
+This means that the selected literals form a **complete negation conflict**, which makes the CNF formula unsatisfiable.
+
+## Property of Pyramid / Square CNF
+
+In **Pyramid CNF** or **Square CNF**, this unsatisfiable situation generally does not occur because the number of available valid literals is always **greater than the number of clauses**.
+
+m > n
+
+Since there are more candidate literals than clauses, even if some literals conflict with each other through negation, another valid literal choice will always exist that avoids the contradiction.
+
+Because of this structural property:
+
+- A satisfying literal can be selected directly from each clause.
+- No backtracking is required.
+- The formula can be satisfied efficiently.
+
+## Time Complexity
+
+Best case: **O(1)**  
+Worst case: **O(n)**
+
+## Conclusion
+
+The key structural property of **Pyramid CNF / Square CNF** is that the number of candidate literals is always greater than the number of clauses (**m > n**). This prevents the formation of a complete negation conflict and ensures that a consistent set of literals can be selected efficiently to satisfy the formula.
+```
+
+
 
 
 ---
