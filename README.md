@@ -95,42 +95,45 @@ Applying the "Cross Is SAT" selection:
 | **SAT Solving (Pyramid)** | $O(1)$ per clause selection |
 | **Total Solving Time** | $O(1)$ for $n$ clauses |
 | **Conversion Logic** | Subject to uniqueness constraint of last literals. |
+# Analysis of Pyramid / Square CNF Satisfiability
 
-To accommodate everything on a single page (or a single scannable scroll), I have condensed the information into a high-impact, clean README. It fits all the logic, examples, and complexity into one cohesive document.
+### Mathematical Reason for $O(1)$ or $O(n)$ Complexity
 
-# Pyramid / Square CNF Property 🏗️
-A study on why **Pyramid/Square CNF** formulas are efficiently satisfiable due to their unique literal-to-clause ratio.
-## 📝 OverviewPyramid CNF formulas can be satisfied in **O(1)** to **O(n)** time without backtracking. This efficiency comes from the structural property where the number of valid literals (**m**) always exceeds the number of clauses (**n**).
----## ⚡ Core Property: $m > n$The fundamental reason these formulas are easily solved is the **surplus of candidate literals**:*   **Satisfiable**: $m > n$. More choices exist than constraints, preventing logical deadlocks.*   **Unsatisfiable**: $m - n = 0$. When the number of selected literals equals the clauses and they are direct negations, a **complete negation conflict** occurs.
----## 🔍 Example (Triangle CNF)Given a formula in DIMACS-like form:
-```text
-c1 =  1 0  
-c2 = -1 -2 0  
-c3 = -1  2 -3 0  
+The efficiency of **Pyramid** or **Square CNF** is driven by the relationship between the number of clauses ($n$) and the number of selectable literals ($m$).
 
+---
 
-* Clauses ($n$): 3
-* Selected Literals ($m$): 3
-* Rule: In a Square/Pyramid structure, we ensure $m > n$ so that even if some literals conflict, an alternative choice always exists.
+#### 1. The Model (Triangle CNF Example)
+In DIMACS form, consider $n=3$:
+$$
+\begin{cases} 
+c_1 = 1 \ 0 \\ 
+c_2 = -1 \ -2 \ 0 \\ 
+c_3 = -1 \ 2 \ -3 \ 0 
+\end{cases}
+$$
 
-------------------------------
-⏱️ Complexity
+In a standard satisfiable scenario, we select one valid literal per clause:
+$$m = n$$
 
-| Case | Complexity | Logic |
-|---|---|---|
-| Best | $O(1)$ | Direct selection of a valid literal set. |
-| Worst | $O(n)$ | Linear scan of clauses to resolve conflicts. |
+#### 2. The Unsatisfiable Case (Conflict)
+A contradiction occurs only when chosen literals form a **complete negation conflict**. This is mathematically represented as:
+$$m - n = 0$$
 
-------------------------------
-💡 Conclusion
-The Pyramid/Square CNF property ensures that a consistent set of literals can always be selected. By maintaining $m > n$, the structure prevents contradiction cycles, making the formula inherently efficient to solve.
-------------------------------
-License: MIT | Author: Documentation Lead
+#### 3. The Pyramid/Square Property
+In a **Pyramid** or **Square CNF**, the structure ensures that:
+$$m > n$$
 
+Because the number of candidate literals ($m$) is strictly greater than the number of constraints ($n$), there is always a "spare" literal available to resolve negation conflicts.
 
-Do you want me to add a **Table of Contents** at the top, or is this **single-page** layout perfect for you?
+---
 
+### Conclusion
+$$
+\text{Property: } m > n \implies \text{No Backtracking Required} \implies \text{Complexity: } O(1) \text{ to } O(n)
+$$
 
+This structural guarantee ensures that a consistent set of literals can be selected in a single pass without forming a complete negation conflict.
 
 ## Implementation Status
 `// C++ source code for the revised version will be available soon.`
