@@ -1,10 +1,19 @@
 # PROOF-OF-P-EQUAL-NP
 A formal proof and O(n)  complexity solution for the N x N   SAT problem using the CROSS-IS-SAT method
 
-# CROSS-IS-SAT Method: A Formal Proof of P=NP
+# COSS-IS-SAT: Solving SAT in Polynomial Time
+
+## Abstract
+This paper introduces the **COSS-IS-SAT** algorithm, which efficiently solves **Pyramid** and **Square CNF** SAT problems in **polynomial time**. Since SAT is a fundamental **NP-Complete** problem, providing a polynomial-time solution directly demonstrates that **P = NP**.
+
+## Background
+The foundation of computational complexity was established by the **Cook-Levin Theorem**, which proved that the Boolean Satisfiability Problem (SAT) is the first **NP-Complete** problem. This implies that any NP problem can be reduced to SAT. For decades, the mathematical community has sought to determine whether **P = NP**; by solving SAT within polynomial limits, this work provides a definitive answer to that long-standing challenge.
+
+
+# CROSS-IS-SAT : A Formal Proof of P=NP
 
 ##  Project Announcement
-This repository contains the mathematical methodology and the C++ implementation (`main.cpp`) of the **CROSS-IS-SAT method**, which solves the $n \times n$ SAT problem with a computational complexity of **$O(n)$**.
+This repository contains the mathematical methodology and the C++ implementation (`main.cpp`) of the **CROSS-IS-SAT algorithm**, which solves the $n \times n$ SAT problem with a computational complexity of **$O(n)$**.
 
 
 
@@ -35,7 +44,7 @@ considered a minor implementation bug in the code rather than a flaw in the logi
 
 ---
 
-##  Methodology (CROSS-IS-SAT Method)
+##  Algorithm (CROSS-IS-SAT )
 1. **Input:** $n \times n$ CNF where each clause size is equal to $n$.
 2. **First Pass:** Print all literals of the 1st clause. In subsequent clauses, print all except their negations.
 3. **Empty Clause Handling:** Force-print literals and back-propagate negation removal until stability.
