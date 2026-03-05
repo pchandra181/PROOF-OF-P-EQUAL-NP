@@ -28,7 +28,7 @@ The foundation of computational complexity was established by the **Cook-Levin T
 # CROSS-IS-SAT : A Formal Proof of P=NP
 
 ##  Project Announcement
-This repository contains the mathematical methodology and the C++ implementation (`main.cpp`) of the **CROSS-IS-SAT algorithm**, which solves the $n \times n$ SAT problem with a computational complexity of **$O(n)$** and **$O(1)$**..
+This repository contains the mathematical methodology and the C++ implementation (`main.cpp`) of the **CROSS-IS-SAT algorithm**, which solves the $n \times n$ and pyramid cnf  with a computational complexity of **$O(n)$** and **$O(1)$**..
 
 
 
