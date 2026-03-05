@@ -1,5 +1,5 @@
 # PROOF-OF-P-EQUAL-NP
-A formal proof and O(n)  complexity solution for the N x N   SAT problem using the CROSS-IS-SAT method
+A formal proof and O(1) and O(n)  complexity solution for the N x N and pyramid  SAT problem using the CROSS-IS-SAT algorithm
 
 # COSS-IS-SAT: Solving SAT in Polynomial Time
 
@@ -13,7 +13,7 @@ The foundation of computational complexity was established by the **Cook-Levin T
 # CROSS-IS-SAT : A Formal Proof of P=NP
 
 ##  Project Announcement
-This repository contains the mathematical methodology and the C++ implementation (`main.cpp`) of the **CROSS-IS-SAT algorithm**, which solves the $n \times n$ SAT problem with a computational complexity of **$O(n)$**.
+This repository contains the mathematical methodology and the C++ implementation (`main.cpp`) of the **CROSS-IS-SAT algorithm**, which solves the $n \times n$ SAT problem with a computational complexity of **$O(n)$** and **$O(1)$**..
 
 
 
@@ -37,9 +37,9 @@ over a period of 1.5 years.
 ---
 
 ## Performance Guarantee
-Mathematically, the CROSS-IS-SAT method and the provided `main.cpp` solve $n \times n$ SAT problems in **Order $O(n)$**. 
+Mathematically, the CROSS-IS-SAT algorithm and the provided `main.cpp` solve $n \times n$ SAT problems in **Order $O(n)$** and **$O(1)$**.. 
 
-> **Technical Note:** While the methodology is mathematically absolute, any failure on an unsatisfiable CNF (which is statistically negligible) should be 
+> **Technical Note:** While the algorithm is mathematically absolute, any failure on an unsatisfiable CNF (which is statistically negligible) should be 
 considered a minor implementation bug in the code rather than a flaw in the logic.
 
 ---
@@ -52,7 +52,7 @@ considered a minor implementation bug in the code rather than a flaw in the logi
 5. **Output:** The final set of printed literals constitutes the **True Assignment** for the input CNF.
 
 
-   # Cross-Is-SAT Method: Square cnf to pyramid CNF Conversion
+   # Cross-Is-SAT algorithm: Square cnf to pyramid CNF Conversion
 
 This repository demonstrates the **Cross-Is-SAT** method for solving SAT problems by transforming a standard Square CNF into a pyramid CNF structure to achieve near-instant satisfiability.
 
@@ -143,9 +143,12 @@ $$
 
 This structural guarantee ensures that a consistent set of literals can be selected in a single pass without forming a complete negation conflict.
 
-## Implementation Status
-`// C++ source code for the revised version will be available soon.`
-© 2026 Cross-Is-SAT METHOD Research
+## Bibliography
+
+1. **Cook, S. A. (1971).** "The complexity of theorem-proving procedures." *Proceedings of the third annual ACM symposium on Theory of computing*. This foundational paper introduced the concept of NP-completeness and focused on the SAT problem.
+2. **Levin, L. (1973).** "Universal search problems." *Problemy Peredachi Informatsii*. Working independently, Levin arrived at similar conclusions regarding NP-completeness, leading to what is now known as the Cook-Levin Theorem.
+3. **Garey, M. R., & Johnson, D. S. (1979).** *Computers and Intractability: A Guide to the Theory of NP-Completeness*. W. H. Freeman & Co. This is the definitive textbook for understanding NP-complete problems and their relationship to the P vs NP question.
+
 
 
 7. ## 💻 Compilation and Execution (For Authorized Users Only)
