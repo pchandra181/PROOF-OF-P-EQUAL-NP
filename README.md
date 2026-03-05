@@ -7,6 +7,20 @@ A formal proof and O(1) and O(n)  complexity solution for the N x N and pyramid 
 ## Abstract
 This paper introduces the **COSS-IS-SAT** algorithm, which efficiently solves **Pyramid** and **Square CNF** SAT problems in **polynomial time**. Since SAT is a fundamental **NP-Complete** problem, providing a polynomial-time solution directly demonstrates that **P = NP**.
 
+## Authors
+
+*   **Prakash Chandra**
+    *   Independent Researcher
+    *   India
+    *   *Primary Researcher & Algorithm Designer*
+
+*   **Prof. Lance Fortnow** (Corresponding Author)
+    *   Professor, Department of Computer Science
+    *   Illinois Institute of Technology (IIT), Chicago
+    *   Email: lfortnow@iit.edu
+    *   [Professional Profile](https://www.iit.edu/directory/people/lance-fortnow)
+
+
 ## Background
 The foundation of computational complexity was established by the **Cook-Levin Theorem**, which proved that the Boolean Satisfiability Problem (SAT) is the first **NP-Complete** problem. This implies that any NP problem can be reduced to SAT. For decades, the mathematical community has sought to determine whether **P = NP**; by solving SAT within polynomial limits, this work provides a definitive answer to that long-standing challenge.
 
