@@ -1,4 +1,5 @@
-# PROOF-OF-P-EQUAL-NP
+# COSS-IS-SAT: A Polynomial-Time Algorithm for SAT and a Proof of P=NP
+
 A formal proof and O(1) and O(n)  complexity solution for the N x N and pyramid  SAT problem using the CROSS-IS-SAT algorithm
 
 # COSS-IS-SAT: Solving SAT in Polynomial Time
