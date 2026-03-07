@@ -69,7 +69,7 @@ considered a minor implementation bug in the code rather than a flaw in the logi
 
    # Cross-Is-SAT algorithm: Square cnf to pyramid CNF Conversion
 
-This repository demonstrates the **Cross-Is-SAT** method for solving SAT problems by transforming a standard Square CNF into a pyramid CNF structure to achieve near-instant satisfiability.
+This repository demonstrates the **Cross-Is-SAT** algorithm for solving SAT problems by transforming a standard Square CNF into a pyramid CNF structure to achieve near-instant satisfiability.
 
 ## 1. Methodology Overview
 
