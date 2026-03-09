@@ -179,7 +179,7 @@ g++ main.cpp -o main
 # Execute the program
 ./main
 
-# Part 2
+### Part 2
 
 # Millennium Prize Problems Research
 
