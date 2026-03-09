@@ -179,9 +179,8 @@ g++ main.cpp -o main
 # Execute the program
 ./main
 
+# Part 2
 
-
-## Part 2
 # Millennium Prize Problems Research
 
 This repository presents research and documentation on various **Millennium Prize Problems** in addition to the **P vs NP (SAT)** problem.
