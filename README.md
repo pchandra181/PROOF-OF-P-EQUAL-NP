@@ -182,18 +182,14 @@ This repository presents research and documentation on various **Millennium Priz
 ### 3. ABC conjecture
 *   **Status:** Proved in 2024 (Pending official verification).
 
-### 4. Goldbach conjecture
-*   **Status:** Proved in 2024 (Pending official verification).
-*   ### Methodology and Peer Review
-I have presented my own method regarding the **Goldbach Conjecture**. I welcome the mathematical community to review this proof and feel free to offer alternative perspectives or methodologies.
 
-### 5. collatz conjecture
+### 4. collatz conjecture
 *   **Status:** Proved in 2024 (Pending official verification).
 
-### 6. travelling salesman problem
+### 5(a). travelling salesman problem
 *   **Status:** Proved in Deccember 2022 (Pending official verification by the Clay Mathematics Institute).
 
-### 7. Polynomial proof of SAT-Problem
+### 5(b). Polynomial proof of SAT-Problem
 *   **Status:** Proved in 2026 (Pending official verification by the Clay Mathematics Institute).
 
 
