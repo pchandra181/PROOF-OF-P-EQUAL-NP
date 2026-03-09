@@ -166,20 +166,6 @@ This structural guarantee ensures that a consistent set of literals can be selec
 
 
 
-7. ## 💻 Compilation and Execution (For Authorized Users Only)
-To run the provided `main.cpp` on a Windows system with a GCC compiler, use the following commands in your terminal:
-
-```bash
-# Navigate to the directory
-cd C:\Users\hp\
-
-# Compile the source code
-g++ main.cpp -o main
-
-# Execute the program
-./main
-
-
 
 # Millennium Prize Problems Research
 
