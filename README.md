@@ -189,10 +189,24 @@ This repository presents research and documentation on various **Millennium Priz
 *   **Status:** Proved in 2024 (Pending official verification).
 
 ### 1. travelling salesman problem
-*   **Status:** Proved in Deccember 2025 (Pending official verification by the Clay Mathematics Institute).
+*   **Status:** Proved in Deccember 2022 (Pending official verification by the Clay Mathematics Institute).
 
 > **Notice:** All proofs are published for reading purposes only.
 
 ---
 **© 2026 Prakash Chandra. All rights reserved.**
+
+
+7. ## 💻 Compilation and Execution (For Authorized Users Only)
+To run the provided `main.cpp` on a Windows system with a GCC compiler, use the following commands in your terminal:
+
+```bash
+# Navigate to the directory
+cd C:\Users\hp\
+
+# Compile the source code
+g++ main.cpp -o main
+
+# Execute the program
+./main
 
