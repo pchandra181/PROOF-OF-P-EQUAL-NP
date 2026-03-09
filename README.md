@@ -184,6 +184,8 @@ This repository presents research and documentation on various **Millennium Priz
 
 ### 4. Goldbach conjecture
 *   **Status:** Proved in 2024 (Pending official verification).
+*   ### Methodology and Peer Review
+I have presented my own method regarding the **Goldbach Conjecture**. I welcome the mathematical community to review this proof and feel free to offer alternative perspectives or methodologies.
 
 ### 5. collatz conjecture
 *   **Status:** Proved in 2024 (Pending official verification).
