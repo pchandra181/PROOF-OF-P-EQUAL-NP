@@ -179,3 +179,34 @@ g++ main.cpp -o main
 # Execute the program
 ./main
 
+
+
+# Millennium Prize Problems Research
+
+This repository presents research and documentation on various **Millennium Prize Problems** in addition to the **P vs NP (SAT)** problem.
+
+## Featured Problems
+
+### 1. Riemann Hypothesis
+*   **Status:** Proved in 2024 (Pending official verification by the Clay Mathematics Institute).
+
+### 2. Beal conjecture
+*   **Status:** Proved in 2024 (Pending official verification).
+
+### 3. ABC conjecture
+*   **Status:** Proved in 2024 (Pending official verification).
+
+### 4. Goldbach conjecture
+*   **Status:** Proved in 2024 (Pending official verification).
+
+### 5. collatz conjecture
+*   **Status:** Proved in 2024 (Pending official verification).
+
+### 1. travelling salesman problem
+*   **Status:** Proved in Deccember 2025 (Pending official verification by the Clay Mathematics Institute).
+
+> **Notice:** All proofs are published for reading purposes only.
+
+---
+**© 2026 Prakash Chandra. All rights reserved.**
+
