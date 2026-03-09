@@ -191,6 +191,10 @@ This repository presents research and documentation on various **Millennium Priz
 ### 6. travelling salesman problem
 *   **Status:** Proved in Deccember 2022 (Pending official verification by the Clay Mathematics Institute).
 
+### 7. Polynomial proof of SAT-PROBLEM
+*   **Status:** Proved in 2026 (Pending official verification by the Clay Mathematics Institute).
+
+
 > **Notice:** All proofs are published for reading purposes only.
 
 ---
