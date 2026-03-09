@@ -188,7 +188,7 @@ This repository presents research and documentation on various **Millennium Priz
 ### 5. collatz conjecture
 *   **Status:** Proved in 2024 (Pending official verification).
 
-### 1. travelling salesman problem
+### 6. travelling salesman problem
 *   **Status:** Proved in Deccember 2022 (Pending official verification by the Clay Mathematics Institute).
 
 > **Notice:** All proofs are published for reading purposes only.
