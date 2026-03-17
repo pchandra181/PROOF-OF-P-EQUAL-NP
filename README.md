@@ -5,7 +5,7 @@ A formal proof and O(1) and O(n)  complexity solution for the N x N and pyramid 
 # COSS-IS-SAT: Solving SAT in Polynomial Time
 
 ## Abstract
-This paper introduces the **COSS-IS-SAT** algorithm, which efficiently solves **Pyramid** and **Square CNF** SAT problems in **polynomial time**. Since SAT is a fundamental **NP-Complete** problem, providing a polynomial-time solution directly demonstrates that **P = NP**.
+This paper introduces the **COSS-IS-SAT** algorithm, which efficiently solves **triangle** and **Square CNF** SAT problems in **polynomial time**. Since SAT is a fundamental **NP-Complete** problem, providing a polynomial-time solution directly demonstrates that **P = NP**.
 
 ## Authors
 
@@ -67,7 +67,7 @@ considered a minor implementation bug in the code rather than a flaw in the logi
 5. **Output:** The final set of printed literals constitutes the **True Assignment** for the input CNF.
 
 
-   # Cross-Is-SAT algorithm: Square cnf to pyramid CNF Conversion
+   # Cross-Is-SAT algorithm: Square cnf to triangle CNF Conversion
 
 This repository demonstrates the **Cross-Is-SAT** algorithm for solving SAT problems by transforming a standard Square CNF into a pyramid CNF structure to achieve near-instant satisfiability.
 
@@ -116,14 +116,14 @@ Applying the "Cross Is SAT" selection:
 
 | Process | Complexity |
 | :--- | :--- |
-| **SAT Solving (Pyramid)** | $O(1)$ per clause selection |
+| **SAT Solving (Triangle)** | $O(1)$ per clause selection |
 | **Total Solving Time** | $O(1)$ for $n$ clauses |
 | **Conversion Logic** | Subject to uniqueness constraint of last literals. |
-# Analysis of Pyramid / Square CNF Satisfiability
+# Analysis of Triangle / Square CNF Satisfiability
 
 ### Mathematical Reason for $O(1)$ or $O(n)$ Complexity
 
-The efficiency of **Pyramid** or **Square CNF** is driven by the relationship between the number of clauses ($n$) and the number of selectable literals ($m$).
+The efficiency of **triangle** or **Square CNF** is driven by the relationship between the number of clauses ($n$) and the number of selectable literals ($m$).
 
 ---
 
@@ -143,8 +143,8 @@ $$m = n$$
 A contradiction occurs only when chosen literals form a **complete negation conflict**. This is mathematically represented as:
 $$m - n = 0$$
 
-#### 3. The Pyramid/Square Property
-In a **Pyramid** or **Square CNF**, the structure ensures that:
+#### 3. The Triangle/Square Property
+In a **Triangle** or **Square CNF**, the structure ensures that:
 $$m > n$$
 
 Because the number of candidate literals ($m$) is strictly greater than the number of constraints ($n$), there is always a "spare" literal available to resolve negation conflicts.
