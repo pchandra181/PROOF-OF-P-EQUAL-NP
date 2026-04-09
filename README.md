@@ -1,4 +1,4 @@
-# Cross-Mass Velocity & Energy Equation: A Conceptual Scientific Note
+# Cross-Mass Velocity & Energy Equation: A Hope for Time Travel and Anti-Gravity Cross-Craft- A Conceptual Scientific Note
 
 ## 1. Introduction
 This concept presents a new energy-generation model based on the difference between the velocity vectors of two masses ($m_1$ and $m_2$). According to the proposed equation, energy is produced only when there is a difference in velocity and direction between the two masses. If no such difference exists, no energy is generated.
@@ -41,7 +41,7 @@ Consider a disk with a circumference of **300,000 km**. If this disk spins in a 
 ---
 
 ## ⚠️ Legal Notice & Research Restriction
-**Author:** Prakash Chandra / independent researcher
+**Author:** Prakash Chandra
 
 **Intellectual Property Rights:**
 This equation and the conceptual framework of "Cross-Mass Velocity & Energy" are the intellectual property of **Prakash Chandra**. 
@@ -50,4 +50,4 @@ This equation and the conceptual framework of "Cross-Mass Velocity & Energy" are
 * **Educational Use:** This document is for understanding the concept only. Any unauthorized academic or professional study will be considered a violation of intellectual rights.
 
 ---
-**© 2026 Prakash Chandra. All Rights Reserved.**
+**© 2024 Prakash Chandra. All Rights Reserved.**
