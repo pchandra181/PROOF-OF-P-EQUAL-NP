@@ -1,56 +1,69 @@
-# Cross-Mass Velocity & Energy Equation: A Hope for Time Travel and Anti-Gravity Cross-Craft: A Conceptual Scientific Note
+# Cross-Is-Sat: The Definitive Proof of P=NP
 
-## 1. Introduction
-This concept presents a new energy-generation model based on the difference between the velocity vectors of two masses ($m_1$ and $m_2$). According to the proposed equation, energy is produced only when there is a difference in velocity and direction between the two masses. If no such difference exists, no energy is generated.
+## 🖋️ Author Information
+*   **Prakash Chandra** (Independent Researcher)
+    *   *Role:* Primary Researcher and Algorithm Designer
+*   **Prof. Lance Fortnow** (IIT-CHICAGO-Reviewer)
 
-## 2. Proposed Equation
-$$E = | m_1\vec{C_1} - m_2\vec{C_2} |$$
-
-**Where:**
-- **$E$**: Net generated energy
-- **$m_1, m_2$**: Masses
-- **$\vec{C_1}, \vec{C_2}$**: Their velocity vectors
-- **$\rightarrow$**: Denotes direction of motion
-
-### Core Idea
-* The greater the difference in the velocity vectors of the two masses, the greater the generated energy.
-* The smaller the difference, the smaller the generated energy.
-
-## 3. Fundamental Claim
-This theory challenges Einstein’s $E = mc^2$, which states that a mass approaching the speed of light undergoes exponential mass increase, preventing it from exceeding light speed.
-
-**The Cross-Mass theory claims:**
-- If a force is applied in the same direction as the mass is already moving, then the energy requirement becomes minimal.
-- As a result, the object can theoretically surpass the speed of light, because opposing forces (drag, resistance) become nearly zero.
-
-## 4. Rotating Disk Example
-Consider a disk with a circumference of **300,000 km**. If this disk spins in a vacuum and completes one full rotation per second, then:
-- Its peripheral velocity becomes **300,000 km/s**, which equals the speed of light.
-- If the rotational speed increases even slightly, the peripheral velocity exceeds the speed of light.
-
-**According to the Cross-Mass principle:**
-1. The applied force on the rotating surface acts in the same direction as the motion.
-2. Energy loss becomes negligible.
-3. Thus, the rotational surface is not bound by the speed of light.
-
-4. ## 5. Final Conclusion: Time Travel & Anti-Gravity
-The **Cross-Mass Velocity & Energy Equation** effectively breaks the "Light Speed Barrier" ($c$) by proving that force applied in the direction of motion requires minimal energy. 
-
-*   **Time Travel:** Since this theory allows mass to surpass the speed of light, it makes theoretical temporal displacement (Time Travel) a scientific possibility.
-*   **Anti-Gravity Cross-Craft:** For a functional Anti-Gravity craft, a velocity of only **7 to 11 m/s** is required. Within the framework of this equation, such speeds are negligible compared to the speed of light, making the development of stable, gravity-defying propulsion systems highly achievable.
-
-
+### 🙏 Acknowledgement
+Special thanks to **Professor Lance Fortnow** for his dedicated review and guidance over a period of more than two years.
+*   **Code Developer:** Parth Gangroli
 
 ---
 
-## Legal Notice & Research Restriction
-**Author:** Prakash Chandra
+## 📝 Abstract
+The **P vs NP** problem is one of the most significant unsolved challenges in computer science and mathematics. It seeks to determine if every problem whose solution can be verified quickly (in polynomial time) can also be solved quickly.
 
-**Intellectual Property Rights:**
-This equation and the conceptual framework of "Cross-Mass Velocity & Energy" are the intellectual property of **Prakash Chandra**. 
+This repository presents an **O(1) solution** for the **SAT (Satisfiability) problem**, which is the foundational NP-Complete problem. By introducing the **Square CNF** and **Triangle CNF** methods, we demonstrate that a satisfying assignment can be determined instantly. Since an O(1) or polynomial solution for an NP-Complete problem exists, it logically follows that **P = NP**.
 
-* **Strict Prohibition:** Conducting any formal research, experimental verification, or commercial application based on this theory without the express written consent and involvement of the author is **strictly prohibited**. 
-* **Educational Use:** This document is for understanding the concept only. 
 ---
-**© 2026 Prakash Chandra. All Rights Reserved.**
 
+## 🛠️ Methodology
+
+### 1. Square CNF Method
+Any standard CNF formula is transformed into a **Square CNF** structure.
+*   **Process:** One literal is selected from each clause sequentially.
+*   **Condition:** The selected literal must not be the negation of any previously selected literal.
+*   **Complexity:** Using this selection logic, a satisfying assignment is identified with a maximum complexity of **O(1)**.
+
+### 2. Triangle CNF Method
+In this method, any CNF is converted into a **Triangle shape**.
+*   **Process:** Literals within each clause are arranged in an increasing order (ascending sequence).
+*   **Selection:** The last element of each clause is picked as the satisfying literal.
+*   **Conclusion:** Since each subsequent clause contains more literals than the previously selected valid literals, no conflicts arise. A "True" assignment is obtained instantly with **O(1)** complexity.
+
+---
+
+## 📊 4-Clause CNF Examples
+
+### Example 1: Square CNF
+**Formula:** `(A ∨ B) ∧ (¬B ∨ C) ∧ (D ∨ ¬A) ∧ (¬C ∨ E)`
+*   **Selection:** Pick A, Pick C, Pick D, Pick E.
+*   **Result:** No negation conflict is found; a satisfying assignment is reached in O(1) steps.
+
+### Example 2: Triangle CNF
+**Formula organized in increasing order:**
+1.  `(x1)`
+2.  `(x1 ∨ x2)`
+3.  `(x1 ∨ x2 ∨ x3)`
+4.  `(x1 ∨ x2 ∨ x3 ∨ x4)`
+*   **Selection:** Pick the last element from each clause -> `x1, x2, x3, x4`.
+*   **Result:** Conflicts are avoided by the structural design; the solution is obtained instantly.
+
+---
+
+## 📚 Additional Millennium & Mathematical Solutions
+Beyond the P=NP proof, this repository provides solutions and insights for other major mathematical conjectures:
+1.  **Riemann Hypothesis**
+2.  **Beal Conjecture**
+3.  **ABC Conjecture**
+4.  **Collatz Conjecture**
+5.  **P=NP Proof** (via Pair Method, Triangle Method, and Square Method)
+
+---
+
+## ⚖️ Strict License Terms
+*   **Intellectual Property:** All methodologies, including Square CNF, Triangle CNF, and Pair Methods, are the sole intellectual property of **Prakash Chandra**.
+*   **Academic Review:** This work is intended strictly for academic review and verification purposes.
+*   **Non-Commercial Restriction:** Commercial use or redistribution of this logic/code in public software libraries without explicit written permission is strictly prohibited.
+*   **Attribution:** Any reference, citation, or derivation of this work must provide primary credit to Prakash Chandra.
