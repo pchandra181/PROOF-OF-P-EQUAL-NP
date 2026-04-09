@@ -39,8 +39,6 @@ The **Cross-Mass Velocity & Energy Equation** effectively breaks the "Light Spee
 *   **Time Travel:** Since this theory allows mass to surpass the speed of light, it makes theoretical temporal displacement (Time Travel) a scientific possibility.
 *   **Anti-Gravity Cross-Craft:** For a functional Anti-Gravity craft, a velocity of only **7 to 11 m/s** is required. Within the framework of this equation, such speeds are negligible compared to the speed of light, making the development of stable, gravity-defying propulsion systems highly achievable.
 
----
-**Author:** Prakash Chandra
 
 
 ---
