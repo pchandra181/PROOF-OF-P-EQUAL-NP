@@ -1,4 +1,4 @@
-# Cross-Mass Velocity & Energy Equation: A Hope for Time Travel and Anti-Gravity Cross-Craft- A Conceptual Scientific Note
+# Cross-Mass Velocity & Energy Equation: A Hope for Time Travel and Anti-Gravity Cross-Craft: A Conceptual Scientific Note
 
 ## 1. Introduction
 This concept presents a new energy-generation model based on the difference between the velocity vectors of two masses ($m_1$ and $m_2$). According to the proposed equation, energy is produced only when there is a difference in velocity and direction between the two masses. If no such difference exists, no energy is generated.
@@ -43,15 +43,14 @@ The **Cross-Mass Velocity & Energy Equation** effectively breaks the "Light Spee
 
 ---
 
-## ⚠️ Legal Notice & Research Restriction
+## Legal Notice & Research Restriction
 **Author:** Prakash Chandra
 
 **Intellectual Property Rights:**
 This equation and the conceptual framework of "Cross-Mass Velocity & Energy" are the intellectual property of **Prakash Chandra**. 
 
 * **Strict Prohibition:** Conducting any formal research, experimental verification, or commercial application based on this theory without the express written consent and involvement of the author is **strictly prohibited**. 
-* **Educational Use:** This document is for understanding the concept only. Any unauthorized academic or professional study will be considered a violation of intellectual rights.
-
+* **Educational Use:** This document is for understanding the concept only. 
 ---
 **© 2026 Prakash Chandra. All Rights Reserved.**
 
