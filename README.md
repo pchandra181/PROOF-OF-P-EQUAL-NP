@@ -1,9 +1,7 @@
 # COSS-IS-SAT: A Polynomial-Time Algorithm for SAT and a Proof of P=NP
-# Cross-Mass Velocity & Energy Equation: A Conceptual Scientific Note
 
 A formal proof and O(1) and O(n)  complexity solution for the N x N and pyramid  SAT problem using the CROSS-IS-SAT algorithm
-## 1. Introduction
-This concept presents a new energy-generation model based on the difference between the velocity vectors of two masses ($m_1$ and $m_2$). According to the proposed equation, energy is produced only when there is a difference in velocity and direction between the two masses. If no such difference exists, no energy is generated.
+
 
 # COSS-IS-SAT: Solving SAT in Polynomial Time
 ## 2. Proposed Equation
@@ -33,22 +31,9 @@ This paper introduces the **COSS-IS-SAT** algorithm, which efficiently solves **
     *   Illinois Institute of Technology (IIT), Chicago
     *   Email: lfortnow@iit.edu
     *   [Professional Profile](https://www.iit.edu/directory/people/lance-fortnow)
-### A Hope for Time Travel
-According to the **Cross-Mass Theory**, since an object can theoretically surpass the speed of light when force is applied in the direction of motion with minimal resistance, it opens the door to **Time Travel**. By breaking the light barrier ($c$), the traditional constraints of space-time causality could be bypassed, allowing for theoretical temporal displacement.
-
-### Anti-Gravity & Cross-Mass (Anti-Grav) Craft
-The equation suggests a method for creating **Anti-Gravity propulsion**. By manipulating the velocity vectors and mass interaction ($m_1$ and $m_2$), a "Cross-Mass Craft" could negate gravitational pull. 
-- Since energy is generated from vector differences, a craft could create its own internal equilibrium or "mass-less" state relative to external gravity.
-- This would allow for friction-less, high-speed travel through any medium (vacuum or atmosphere).
 
 ## Background
 The foundation of computational complexity was established by the **Cook-Levin Theorem**, which proved that the Boolean Satisfiability Problem (SAT) is the first **NP-Complete** problem. This implies that any NP problem can be reduced to SAT. For decades, the mathematical community has sought to determine whether **P = NP**; by solving SAT within polynomial limits, this work provides a definitive answer to that long-standing challenge.
-## 4. Fundamental Claim
-This theory challenges Einstein’s $E = mc^2$, which states that a mass approaching the speed of light undergoes exponential mass increase, preventing it from exceeding light speed.
-
-**The Cross-Mass theory claims:**
-- If a force is applied in the same direction as the mass is already moving, then the energy requirement becomes minimal.
-- As a result, the object can theoretically surpass the speed of light, because opposing forces (drag, resistance) become nearly zero.
 
 # CROSS-IS-SAT : A Formal Proof of P=NP
 
