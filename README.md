@@ -8,16 +8,8 @@ A formal proof and O(1) and O(n)  complexity solution for the N x N and pyramid 
 
 ## Abstract
 This paper introduces the **COSS-IS-SAT** algorithm, which efficiently solves **triangle** and **Square CNF** SAT problems in **polynomial time**. Since SAT is a fundamental **NP-Complete** problem, providing a polynomial-time solution directly demonstrates that **P = NP**.
-**Where:**
-- **$E$**: Net generated energy
-- **$m_1, m_2$**: Masses
-- **$\vec{C_1}, \vec{C_2}$**: Their velocity vectors
-- **$\rightarrow$**: Denotes direction of motion
 
 ## Authors
-### Core Idea
-* The greater the difference in the velocity vectors of the two masses, the greater the generated energy.
-* The smaller the difference, the smaller the generated energy.
 
 *   **Prakash Chandra**
     *   Independent Researcher
@@ -56,13 +48,8 @@ over a period of 1.5 years.
 - This code is for visual inspection only. Any execution without written permission is a violation of legal terms.
 - For detailed terms, Read the full terms here: [View Strict License Terms](LICENSE.TXT)
 
-**Contact for Permissions:** `pcgango55@gmail.com`
-## 5. Rotating Disk Example
-Consider a disk with a circumference of **300,000 km**. If this disk spins in a vacuum and completes one full rotation per second, then:
-- Its peripheral velocity becomes **300,000 km/s**, which equals the speed of light.
-- If the rotational speed increases even slightly, the peripheral velocity exceeds the speed of light.
 
----
+
 
 ## Performance Guarantee
 Mathematically, the CROSS-IS-SAT algorithm and the provided `main.cpp` solve $n \times n$ SAT problems in **Order $O(n)$** and **$O(1)$**.. 
@@ -85,12 +72,10 @@ considered a minor implementation bug in the code rather than a flaw in the logi
 This repository demonstrates the **Cross-Is-SAT** algorithm for solving SAT problems by transforming a standard Square CNF into a pyramid CNF structure to achieve near-instant satisfiability.
 
 ## 1. Methodology Overview
-## ⚠️ Legal Notice & Research Restriction
-**Author:** Prakash Chandra / independent researcher
+
 
 The core idea is to take an $n \times n$ CNF and restructure it into a "pyramid" shape where the number of literals in each clause increases incrementally, and the last literal of each clause is unique.
-**Intellectual Property Rights:**
-This equation and the conceptual framework of "Cross-Mass Velocity & Energy" are the intellectual property of **Prakash Chandra**. 
+
 
 ### Transformation Rules:
 1. **Square CNF:** Start with $n$ clauses, where each clause originally contains $n$ literals.
@@ -141,8 +126,6 @@ Applying the "Cross Is SAT" selection:
 ### Mathematical Reason for $O(1)$ or $O(n)$ Complexity
 
 The efficiency of **triangle** or **Square CNF** is driven by the relationship between the number of clauses ($n$) and the number of selectable literals ($m$).
-* **Strict Prohibition:** Conducting any formal research, experimental verification, or commercial application based on this theory without the express written consent and involvement of the author is **strictly prohibited**. 
-* **Educational Use:** This document is for understanding the concept only. Any unauthorized academic or professional study will be considered a violation of intellectual rights.
 
 ---
 
