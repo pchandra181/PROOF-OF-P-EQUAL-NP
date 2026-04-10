@@ -4,8 +4,7 @@ A formal proof and O(1) and O(n)  complexity solution for the N x N and pyramid 
 
 
 # COSS-IS-SAT: Solving SAT in Polynomial Time
-## 2. Proposed Equation
-$$E = | m_1\vec{C_1} - m_2\vec{C_2} |$$
+
 
 ## Abstract
 This paper introduces the **COSS-IS-SAT** algorithm, which efficiently solves **triangle** and **Square CNF** SAT problems in **polynomial time**. Since SAT is a fundamental **NP-Complete** problem, providing a polynomial-time solution directly demonstrates that **P = NP**.
