@@ -15,7 +15,7 @@ This paper introduces the **COSS-IS-SAT** algorithm, which efficiently solves **
     *   Independent Researcher
     *   India
     *   *Primary Researcher & Algorithm Designer*
-## 3. Advanced Applications: Time Travel & Anti-Gravity
+
 
 *   **Prof. Lance Fortnow** (Corresponding Author)
     *   Professor, Department of Computer Science
