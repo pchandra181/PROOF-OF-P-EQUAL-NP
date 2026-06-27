@@ -214,9 +214,9 @@ The large backbone routes from Phase 2 and the smaller patching segments from Ph
 ## ⚠️ Copyright & Intellectual Property Warning
 
 > [!WARNING]
-> **Copyright © 2026 Pralask Chandra. All Rights Reserved.**
+> **Copyright © 2026 Prakash Chandra. All Rights Reserved.**
 > 
-> This material, including the conceptual design, logic flow, routing architecture, and documentation of the **Cross-Is-SAT Algorithm (Node-Pair Method)**, is the exclusive intellectual property of **Pralask Chandra**. 
+> This material, including the conceptual design, logic flow, routing architecture, and documentation of the **Cross-Is-SAT Algorithm (Node-Pair Method)**, is the exclusive intellectual property of **Prakash Chandra**. 
 > 
 > * Unauthorized copying, modification, distribution, or commercial exploitation of this algorithm, code, or documentation without explicit prior written permission from the owner is strictly prohibited.
 > * Legal action will be taken against any individuals or entities violating these intellectual property terms.
