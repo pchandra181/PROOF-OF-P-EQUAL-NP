@@ -177,7 +177,7 @@ This structural guarantee ensures that a consistent set of literals can be selec
 4. **Valid Route Generation**: A valid path or route through the graph can only be constructed using literals that do not negate each other. 
 5. **Path Sequencing**: A route progresses sequentially by connecting the terminal literal of one node pair to the starting literal of the next.
 
-> **Example:** Given Node 1 ($1 \lor -2$), Node 2 ($2 \lor -3$), and Node 3 ($3 \lor -5$), the valid intersecting route is constructed as:  
+> **Example:** Given Node 1 ($1 -2$), Node 2 ($2 -3$), and Node 3 ($3  -5$), the valid intersecting route is constructed as:  
 > $$(1 \rightarrow -2) + (2 \rightarrow -3) + (3 \rightarrow -5)$$
 
 ---
