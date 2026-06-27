@@ -165,7 +165,7 @@ This structural guarantee ensures that a consistent set of literals can be selec
 # The Cross-Is-SAT Algorithm: Node-Pair Method
 
 ## 📌 Overview
-Standard graph-based SAT algorithms (such as Triangle or Square CNF) are primarily effective for satisfiable instances. To bridge this gap, the **Node-Pair Method** is designed to evaluate both **SAT (Satisfiable)** and **UNSAT (Unsatisfiable)** problems effectively.
+ Triangle or Square CNF are primarily effective for satisfiable instances. To bridge this gap, the **Node-Pair Method** is designed to evaluate both **SAT (Satisfiable)** and **UNSAT (Unsatisfiable)** problems effectively.
 
 ---
 
