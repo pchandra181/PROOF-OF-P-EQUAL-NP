@@ -182,7 +182,7 @@ This structural guarantee ensures that a consistent set of literals can be selec
 
 ---
 
-## ⚙️ Execution Strategy for 3-SAT CNF
+## Execution Strategy for 3-SAT CNF
 
 For a 3-SAT formula, the system generates three distinct row-based subsets representing the structural combinations: **$\{1, 2\}$, $\{1, 3\}$, and $\{2, 3\}$**. The algorithm then attempts to satisfy the nodes within these subsets using the following tiered approach:
 
@@ -213,7 +213,7 @@ The large backbone routes from Phase 2 and the smaller patching segments from Ph
 
 ##  Copyright & Intellectual Property Warning
 
-> [!WARNING]
+
 > **Copyright © 2026 Prakash Chandra. All Rights Reserved.**
 > 
 > This material, including the conceptual design, logic flow, routing architecture, and documentation of the **Cross-Is-SAT Algorithm (Node-Pair Method)**, is the exclusive intellectual property of **Prakash Chandra**. 
