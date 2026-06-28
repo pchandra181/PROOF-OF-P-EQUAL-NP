@@ -219,9 +219,7 @@ According to the foundational **Cook-Levin Theorem**, SAT is recognized as a qui
 Consequently, since every NP problem can be efficiently reduced to SAT, and the proposed Cross-is-SAT algorithm provides a deterministic polynomial-time solution for SAT, it logically follows that **every problem in the NP complexity class can now be solved in polynomial time**. 
 
 By successfully bridging this computational gap, this deterministic polynomial-time resolution for an NP-complete problem mathematically satisfies the criteria to resolve the historic, 50-year-old millennium prize puzzle, thereby definitively proving that:
-
-```math
-\(\mathbf{P = NP} \%\%\)MAGIT_PARSER_PROTECT%%```
+P = NP
 
 ---
 ##  Copyright & Intellectual Property Warning
