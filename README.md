@@ -164,12 +164,12 @@ This structural guarantee ensures that a consistent set of literals can be selec
 
 # The Cross-Is-SAT Algorithm: Node-Pair Method
 
-## 📌 Overview
+##  Overview
  Triangle or Square CNF are primarily effective for satisfiable instances. To bridge this gap, the **Node-Pair Method** is designed to evaluate both **SAT (Satisfiable)** and **UNSAT (Unsatisfiable)** problems effectively.
 
 ---
 
-## 🏗️ Core Architecture & Graph Construction
+## Core Architecture & Graph Construction
 
 1. **Clause-as-Node Representation**: Each clause in the CNF formula is treated as a major (macro) node. The individual literals within that clause function as its internal sub-nodes.
 2. **Edge/Pair Creation**: Edges (pairs) are drawn to connect a sub-node from one major node to a sub-node of a different major node. 
@@ -200,7 +200,7 @@ The large backbone routes from Phase 2 and the smaller patching segments from Ph
 
 ---
 
-## 📊 Complexity Analysis
+## Complexity Analysis
 
 * **Variables**: Let $n$ represent the number of long routes (backbones) and $m$ represent the number of short routes (patches). 
 * **Route Expansion**: A single backbone combined with the patch variations generates $n \times m$ potential paths. For $n$ large routes, it scales to creating approximately $n^2$ total paths.
@@ -211,7 +211,7 @@ The large backbone routes from Phase 2 and the smaller patching segments from Ph
 
 ---
 
-## ⚠️ Copyright & Intellectual Property Warning
+##  Copyright & Intellectual Property Warning
 
 > [!WARNING]
 > **Copyright © 2026 Prakash Chandra. All Rights Reserved.**
