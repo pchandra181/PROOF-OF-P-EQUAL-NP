@@ -210,7 +210,7 @@ The large backbone routes from Phase 2 and the smaller patching segments from Ph
   $$O(N)$$
 
 ---
-# 3-SAT to 2-SAT / 1-SAT Reduction and Satisfaction Assignment Algorithm
+# 3-SAT to 2-SAT / 1-SAT Reduction and Satisfaction 
 
 This algorithm attempts to solve the **3-SAT** problem through a specialized reduction process. By breaking down 3-literal clauses into temporary and final rows, the algorithm filters and matches literals to discover a **Satisfying Assignment**.
 
@@ -236,7 +236,7 @@ The 3 initial temporary rows (`r1, r2, r3`) representing each column position wi
 ---
 
 ### Step 2: Diagonal Combination (Subset Rows)
-To map the relationships between rows, subsets of pairs of rows are formed (such as `{12, 23, 13}`). Cross-matching or combining the **Diagonal Literals** of these pairs generates new temporary rows (`r4` to `r9`).
+To map the relationships between rows, subsets of pairs of rows are formed (such as `{12, 23, 13}`). Cross-matching or combining the **Diagonal Literals** of these pairs generates new temporary rows (`r1` to `r2`).
 
 **Example for Subset {12}:**
 Consider rows `r1` and `r2`:
@@ -280,13 +280,13 @@ c3 =   4              2
 
 * **Execution:** If `r1` has an empty slot at `c2`, we scan the remaining 17 rows to find a literal that can fill this gap without contradictions.
 * In the example above, the empty slot of `r1` can be filled by `-2` from `r4`.
-* **Result (Satisfying Assignment):** `[1, -2, 4]` becomes a valid satisfying assignment for this CNF.
+* **Result (Satisfying Assignment):** `[1, -2, 4]` becomes a valid satisfying assignment for this example CNF.
 
-> ⚠️ **Note:** A **Satisfied CNF** can fully fill or satisfy multiple rows out of the 18. Conversely, for an **Unsatisfied CNF**, none of the 18 rows can ever be completely filled.
+> **Note:** A **Satisfied CNF** can fully fill or satisfy multiple rows out of the 18. Conversely, for an **Unsatisfied CNF**, none of the 18 rows can ever be completely filled.
 
 ---
 
-## ⏱️ Time Complexity
+##  Time Complexity
 
 The time complexity of this algorithm is bounded as follows:
 $$\mathcal{O}(1) \le \text{Time Complexity} \le \mathcal{O}(n^2)$$
