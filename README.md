@@ -210,6 +210,89 @@ The large backbone routes from Phase 2 and the smaller patching segments from Ph
   $$O(N)$$
 
 ---
+# 3-SAT to 2-SAT / 1-SAT Reduction and Satisfaction Assignment Algorithm
+
+This algorithm attempts to solve the **3-SAT** problem through a specialized reduction process. By breaking down 3-literal clauses into temporary and final rows, the algorithm filters and matches literals to discover a **Satisfying Assignment**.
+
+---
+
+## 📌 Key Steps of the Algorithm
+
+### Step 1: Literal Breakdown (Row Generation)
+The literals of each clause in the 3-SAT formula are separated vertically to create 3 independent initial temporary rows.
+
+**Example (CNF 1):**
+```text
+c1 =   1    2    3
+c2 =  -1   -2    3
+c3 =   4    2   -3
+```
+
+The 3 initial temporary rows (`r1, r2, r3`) representing each column position will look like this:
+* **r1 (Column 1):** `c1=1`, `c2=-1`, `c3=4`
+* **r2 (Column 2):** `c1=2`, `c2=-2`, `c3=2`
+* **r3 (Column 3):** `c1=3`, `c2=3`, `c3=-3`
+
+---
+
+### Step 2: Diagonal Combination (Subset Rows)
+To map the relationships between rows, subsets of pairs of rows are formed (such as `{12, 23, 13}`). Cross-matching or combining the **Diagonal Literals** of these pairs generates new temporary rows (`r4` to `r9`).
+
+**Example for Subset {12}:**
+Consider rows `r1` and `r2`:
+```text
+      r1    r2    
+c1 =   1     2    
+c2 =  -1    -2    
+c3 =   4     2    
+```
+
+By connecting the diagonal elements across these rows, we create 2 new temporary rows, **r4** and **r5**:
+* **r4:** `c1=1`, `c2=-2`, `c3=4`
+* **r5:** `c1=2`, `c2=-1`, `c3=2`
+
+Repeating this process for all row subsets creates 4 more rows, resulting in a **Total of 9 Temporary Rows**.
+
+---
+
+### Step 3: Separating Positive and Negated Literals (Final 18 Rows)
+Next, the positive and negated (`-`) literals within each of the 9 temporary rows are completely separated into distinct **Final Rows**. This expansion results in a **Total of 18 Final Rows**.
+
+* **Rule:** If a temporary row does not contain any negated literals, only 1 final row is created. While splitting, the clause positions (`c1, c2, c3`) of the literals must strictly match their positions in the original CNF.
+
+**Example of Final Rows created from splitting `r1` and `r2`:**
+
+| r1 (Positives) | r2 (Negatives) | r3 (Positives) | r4 (Negatives) |
+| :--- | :--- | :--- | :--- |
+| `c1 = 1` <br> `c2 = ` <br> `c3 = 4` | `c1 = ` <br> `c2 = -1` <br> `c3 = ` | `c1 = 2` <br> `c2 = ` <br> `c3 = 2` | `c1 = ` <br> `c2 = -2` <br> `c3 = ` |
+
+---
+
+### Step 4: Clause Filling and Satisfaction Matching
+Finally, the empty positions in these 18 filtered rows are filled. The goal is to fill the blank spots of a row using literals from other rows without causing any negation conflicts, thereby satisfying all clauses.
+
+```text
+       r1     r2      r3     r4
+c1 =   1              2                     
+c2 =         -1             -2         
+c3 =   4              2
+```
+
+* **Execution:** If `r1` has an empty slot at `c2`, we scan the remaining 17 rows to find a literal that can fill this gap without contradictions.
+* In the example above, the empty slot of `r1` can be filled by `-2` from `r4`.
+* **Result (Satisfying Assignment):** `[1, -2, 4]` becomes a valid satisfying assignment for this CNF.
+
+> ⚠️ **Note:** A **Satisfied CNF** can fully fill or satisfy multiple rows out of the 18. Conversely, for an **Unsatisfied CNF**, none of the 18 rows can ever be completely filled.
+
+---
+
+## ⏱️ Time Complexity
+
+The time complexity of this algorithm is bounded as follows:
+$$\mathcal{O}(1) \le \text{Time Complexity} \le \mathcal{O}(n^2)$$
+
+If the computational complexity exceeds $\mathcal{O}(n^2)$, the given formula is automatically classified as **Unsatisfied**.
+---
 ## Conclusion
 
 In this work, we evaluated the performance of the **Cross-is-SAT** algorithm, demonstrating that it successfully provides a polynomial-time solution for the Boolean Satisfiability (SAT) problem with a computational complexity ranging from $\mathcal{O}(1)$ to $\mathcal{O}(n^2)$. 
