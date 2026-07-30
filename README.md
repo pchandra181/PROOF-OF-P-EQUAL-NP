@@ -284,7 +284,7 @@ c3 =   4              2
 
 > **Note:** A **Satisfied CNF** can fully fill or satisfy multiple rows out of the 18. Conversely, for an **Unsatisfied CNF**, none of the 18 rows can ever be completely filled.
 
-
+##
 > **Very Important Technical Note for Large-Scale CNF Formulas:**
 > 
 > * **Context:** In small CNF examples, the literals in the final filtered rows do not need to connect deeply with literals from the other 17 rows. However, when the CNF size scales up, a strict cross-row literal propagation logic must be applied.
