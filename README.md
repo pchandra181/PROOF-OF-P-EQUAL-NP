@@ -301,7 +301,7 @@ c3 =   4              2
 The time complexity of this algorithm is bounded as follows:
 $$\mathcal{O}(1) \le \text{Time Complexity} \le \mathcal{O}(n^2)$$
 
-If the computational complexity exceeds $\mathcal{O}(n^2)$, the given formula is automatically classified as **Unsatisfied**.
+If the computational complexity exceeds $\mathcal{O}(n^3)$, the given formula is automatically classified as **Unsatisfied**.
 ---
 ## Conclusion
 
