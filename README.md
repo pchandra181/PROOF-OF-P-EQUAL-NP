@@ -282,8 +282,6 @@ c3 =   4              2
 * In the example above, the empty slot of `r1` can be filled by `-2` from `r4`.
 * **Result (Satisfying Assignment):** `[1, -2, 4]` becomes a valid satisfying assignment for this example CNF.
 
-> **Note:** A **Satisfied CNF** can fully fill or satisfy multiple rows out of the 18. Conversely, for an **Unsatisfied CNF**, none of the 18 rows can ever be completely filled.
-
 ---
 ## Very Important Technical Note for Large-Scale CNF Formulas:
 
